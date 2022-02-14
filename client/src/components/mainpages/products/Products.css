@@ -1,0 +1,79 @@
+.products{
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(420px,1fr));
+    justify-items: center;
+}
+
+/* -----------------------Products Item---------- */
+@import url(../utils/productsItem/ProductItem.css);
+
+
+/* ------------------------------------------- */
+
+.delete-all{
+    text-align: right;
+    margin: 20px;
+}
+.delete-all input{
+    height: 25px;
+    width: 25px;
+    transform: translateY(5px);
+    margin: 0 15px;
+}
+.delete-all span{
+    text-transform: uppercase;
+    color:rgb(3,165,206);
+    letter-spacing: 1.3px;
+}
+.delete-all button{
+    border: 1px solid crimson;
+    padding: 10px 25px;
+    color: crimson;
+    text-transform: uppercase;
+}
+
+/* --------------------filters -------------------- */
+
+.filter_menu{
+    width: 100%;
+    min-height: 40px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px ;
+    padding-top: 10px;
+}
+.filter_menu select, input{
+    border: 1px solid #ccc;
+    outline: none;
+    height: 40px;
+    padding: 0 5px;
+
+}
+
+
+
+/* ------------Load more---------------------- */
+
+.load_more{
+    text-align:  center;
+    margin-top: 8px;
+}
+.load_more button{
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    border: 1px solid #555;
+    text-transform: capitalize;
+    opacity: 1;
+    
+}
+
+.load_more button:hover{
+    border: 1px solid rgb(224, 63, 63);
+    color: rgb(224, 63, 63);
+}

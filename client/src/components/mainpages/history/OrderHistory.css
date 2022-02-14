@@ -1,0 +1,59 @@
+.profile{
+    display: flex;
+}
+.user-profile{
+    flex: 1;
+    margin-right: 20px;
+}
+.user-profile h2{
+    text-align: center; 
+    margin: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+.user-profile .form-group:first-child{
+   margin-top: 24px;
+}
+
+.user-profile-btn{
+    width: 100%;
+    background-color: #353535;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 8px;
+    
+}
+.user-profile-btn:hover{
+    background-color: #000;
+}
+.history-page{
+    overflow-x: auto;
+    padding-bottom: 20px;
+    min-height: 100%;
+    flex: 3;
+}
+
+.history-page h2,h4{
+    text-align: center; 
+    margin: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.history-page table{
+    margin: auto;
+    width: 100%;
+}
+.history-page table, th, tr, td{
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+th,td{
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+table a{
+    color: rgb(3,165,206) ;
+}

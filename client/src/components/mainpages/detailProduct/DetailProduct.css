@@ -1,0 +1,120 @@
+.detail{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    font-size: 150%; 
+    margin-top: 10px;
+    margin-bottom: 16px ;
+    border-bottom: 2px solid #555555;
+    
+}
+.detail-img{
+    margin: 20px;
+}
+.detail .detail-img-main{
+    max-width: 450px ;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 450px;
+    object-fit: contain;
+    display: block;
+} 
+.activeImg{
+    border:orangered  1px solid;
+    padding: 2px;
+}
+.detail-img-list{
+    width: 20%;
+    height: 80px;
+    object-fit: cover; 
+}
+.box-detail{
+    max-width: 700px;
+    width: 100%;
+    margin:5px 20px;
+    
+}
+.box-detail .row{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.box-detail h2{
+    text-transform: uppercase;
+    color: darkblue;
+    letter-spacing: 2px;
+    font-weight: 2rem;
+}
+.box-detail p{
+    line-height: 1.5;
+    margin: 10px 0;
+    color: #555555;
+    font-size: 24px;
+    font-weight: normal;
+
+}
+.box-detail b {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.box-detail .cart{
+    background: #333;
+    color: white;
+    padding: 8px;
+    font-weight: 600;
+    margin-top: 10px 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 1;
+    cursor: pointer;
+}
+.box-detail .cart_out_stock{
+    background: #333;
+    color: white;
+    padding: 8px;
+    font-weight: 600;
+    margin-top: 10px 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 1;
+  
+   
+}
+.box-detail .cart:hover{
+    background: #000;
+}
+.history-page img{
+    width: 70px;
+    height: 100px;
+    object-fit: cover;
+}
+.box-detail span{
+    color: red;
+    font-weight: bolder;
+}
+.box-detail span b{
+    color: #555555;
+}
+.size-color{
+    display: flex;
+}
+.size-item{
+    margin-left: 8px !important;
+    border: 2px solid #555555;
+    width: 40px;
+    text-align: center;
+    font-size: 18px !important;
+    padding: 4px 0;
+}
+.color-item{
+    margin-left: 8px !important;
+    border: 2px solid #555555;
+    min-width: 100px;
+    text-align: center;
+}
+

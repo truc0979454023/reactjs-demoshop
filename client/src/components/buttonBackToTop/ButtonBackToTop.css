@@ -1,0 +1,52 @@
+.bttop {
+    background: whitesmoke;
+    position: fixed;
+    bottom: 8%;
+
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 10px rgb(180, 179, 179);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    will-change: opacity transform;
+    z-index: 999;
+}
+.bttop--active{ 
+    animation: trans ease 0.4s;
+    right: 1%;
+}
+.bttop--activeHide{
+    animation: transup ease 0.4s;
+    right: -8%;
+}
+ 
+@keyframes trans {
+    from {
+        opacity: 0;
+        right: -4%;
+    }
+    to {
+        opacity: 1;
+        right: 1%;
+    }
+}
+
+@keyframes transup {
+    from {
+        opacity: 1;
+        right: 1%;
+    }
+    to {
+        opacity: 0;
+        right: -4%;
+        
+    }
+}
+
+
+.icon-up{
+   color: #ccc;
+}
+
+

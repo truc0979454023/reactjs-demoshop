@@ -1,0 +1,70 @@
+.user-container{
+    padding-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-update-role{
+    width: 400px;
+    margin-left: 12px;
+    padding: 12px ;
+    border: 1px solid #ccc;
+}
+.form-update-role__title{
+    margin-bottom: 8px;
+    text-align: center;
+}
+.form-update-role__btn{
+    background-color: #363636;
+    padding: 8px;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    
+}
+.form-update-role__btn:hover{
+    background-color: #000;
+}
+.form-group{
+    margin: 8px 0;
+}
+.form-group .form-group__label{
+    margin-bottom: 6px;
+}
+.form-group input{
+    width: 100%;
+    border-radius: 4px;
+}
+.label-is-admin{
+    margin-left: 4px;
+}
+.table-user{
+    width: 100%;
+    flex: 1;
+    border: 1px solid #ccc;
+    border-collapse:collapse;
+    padding-top: 8px;
+   
+}
+.table-user tbody th {
+    font-weight: normal;
+    text-transform: none;
+}
+
+.check-user,
+.edit-user{
+    color:darkcyan;
+    font-weight: 600;
+}
+.times-user,
+.trash-user{
+    color: crimson;
+    font-weight: 600;
+
+}
+.action-icon{
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
